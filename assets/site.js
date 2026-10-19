@@ -50,6 +50,19 @@
     tick();
   });
 
+  // Click-to-reveal email: address is stored reversed + base64 so it never appears as plain text in the page
+  document.querySelectorAll('.email-btn[data-e]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var addr = atob(btn.getAttribute('data-e')).split('').reverse().join('');
+      var subj = btn.getAttribute('data-s');
+      var a = document.createElement('a');
+      a.className = 'email-shown';
+      a.href = 'mailto:' + addr + (subj ? '?subject=' + subj : '');
+      a.textContent = addr;
+      btn.replaceWith(a);
+    });
+  });
+
   // Year in footer
   document.querySelectorAll('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 })();
