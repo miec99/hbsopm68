@@ -322,3 +322,23 @@ a.event-row:hover .arrow { transform: translateX(6px); color: var(--crimson); }
   .scroll-cue i { animation: none; }
 }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Phones: start hero content just below the nav instead of centring it in a full-screen block */
+@media (max-width: 700px) {
+  .nav .wrap { height: 64px; }
+  .nav-links { inset: 64px 0 auto 0; }
+  .hero, .ev-hero { min-height: 0; align-items: flex-start; padding: 92px 0 56px; }
+  .hero-kicker { margin-bottom: 22px; font-size: 10px; letter-spacing: .22em; }
+  .hero-kicker span + span { display: none; }
+  .ev-hero .hero-kicker { display: none; }
+  .hero-foot { display: none; }
+  .hero h1 { font-size: 72px; }
+  .hero-sub { margin-top: 16px; }
+  .hero-tag { margin-bottom: 32px; }
+  .ev-hero h1 { font-size: 58px; }
+  .ev-hero .pre { font-size: 14px; margin-bottom: 8px; }
+  .ev-hero .dates { margin-top: 22px; }
+  .ev-hero .where { margin-bottom: 26px; }
+  .ev-hero .assoc { margin: -8px 0 26px; }
+  .ev-hero .countdown { margin-bottom: 28px; }
+}
