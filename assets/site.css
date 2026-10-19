@@ -198,7 +198,7 @@ a.event-row:hover .arrow { transform: translateX(6px); color: var(--crimson); }
 /* connect cards */
 .cards { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); }
 @media (min-width: 700px) { .cards { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1000px) { .cards { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1000px) { .cards { grid-template-columns: repeat(3, 1fr); } }
 .card { background: var(--paper); padding: 34px 28px; text-decoration: none; display: flex; flex-direction: column; gap: 10px; transition: background .2s ease; min-height: 210px; }
 .card:hover { background: var(--cream); }
 .card small { font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: var(--crimson); font-weight: 600; }
