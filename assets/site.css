@@ -11,8 +11,8 @@
   --muted: #857c71;
   --line: #e4d9c8;
   --gold: #e9c98f;
-  --serif: "Playfair Display", "Bodoni Moda", Georgia, serif;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "Fraunces", Georgia, serif;
+  --sans: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --max: 1160px;
   --gutter: clamp(16px, 4vw, 40px);
   --radius: 4px;
@@ -219,10 +219,13 @@ a.event-row:hover .arrow { transform: translateX(6px); color: var(--crimson); }
 
 /* ===== Event page ===== */
 .ev-hero { min-height: 100svh; }
-.ev-hero h1 { font-size: clamp(88px, 17vw, 220px); font-style: italic; letter-spacing: -.02em; }
+.ev-hero h1 { font-size: clamp(58px, 8.5vw, 112px); font-style: italic; font-weight: 600; line-height: .94; letter-spacing: -.02em; }
+.ev-hero .assoc { margin: -14px 0 34px; }
+.ev-hero .assoc small { display: block; font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: var(--gold); }
+.ev-hero .assoc b { display: block; font-family: var(--serif); font-weight: 500; font-size: clamp(22px, 2.6vw, 30px); margin-top: 4px; }
 .ev-hero .pre { font-size: clamp(16px, 2vw, 22px); letter-spacing: .3em; text-transform: uppercase; margin: 0 0 6px; font-weight: 500; }
 .ev-hero .city { font-size: clamp(18px, 2.4vw, 30px); letter-spacing: .14em; text-transform: uppercase; margin: 10px 0 0; font-weight: 500; }
-.ev-hero .dates { font-family: var(--serif); font-size: clamp(30px, 4.4vw, 56px); margin: 34px 0 6px; line-height: 1.1; }
+.ev-hero .dates { font-family: var(--serif); font-size: clamp(30px, 3.6vw, 46px); margin: 26px 0 6px; line-height: 1.1; }
 .ev-hero .where { font-size: 12px; letter-spacing: .32em; text-transform: uppercase; opacity: .85; margin: 0 0 36px; }
 .ev-hero .center { text-align: center; }
 .ev-hero .center .btn-row, .ev-hero .center .countdown { justify-content: center; }

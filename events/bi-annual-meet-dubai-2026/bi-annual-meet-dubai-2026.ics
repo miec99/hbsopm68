@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HBS OPM 68//Bi-Annual Meet Dubai 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bi-annual-meet-dubai-2026@hbsopm68.com
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261124
+SUMMARY:HBS OPM 68 Bi-Annual Meet\, Dubai
+LOCATION:Habtoor Palace / V Hotel\, Dubai\, United Arab Emirates
+DESCRIPTION:HBS OPM 68 Bi-Annual Meet in association with Access Alt Asia\, 18-23 November 2026. Programme and brochure: https://hbsopm68.com/events/bi-annual-meet-dubai-2026/
+URL:https://hbsopm68.com/events/bi-annual-meet-dubai-2026/
+END:VEVENT
+END:VCALENDAR

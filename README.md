@@ -6,7 +6,7 @@ Website for the Harvard Business School OPM 68 batch. A plain static site (HTML,
 
 ```
 index.html                         Home page: the batch, next event, list of all events
-events/ignite-dubai-2026/          Ignite Dubai event page + calendar (.ics) file
+events/bi-annual-meet-dubai-2026/  Bi-Annual Meet (Dubai) event page + calendar (.ics) file
 assets/site.css, assets/site.js    Shared styles and scripts (countdown, menu, animations)
 assets/downloads/                  Downloadable PDFs (brochures)
 assets/img/                        Brochure cover, social share image, favicon
@@ -15,7 +15,7 @@ CNAME                              Tells GitHub Pages to serve hbsopm68.com
 
 ## Adding a new event
 
-1. Copy the folder `events/ignite-dubai-2026/` to `events/<new-event-name>/` and edit the text in its `index.html`.
+1. Copy the folder `events/bi-annual-meet-dubai-2026/` to `events/<new-event-name>/` and edit the text in its `index.html`.
 2. Put the event's PDF in `assets/downloads/` and update the download links.
 3. On the home page (`index.html`), copy the block between `EVENT ROW TEMPLATE` and `/EVENT ROW` for the new event.
 4. Once an event is over, change its tag from `Upcoming` to `Past`, and point the "Next Gathering" feature at the next event.
